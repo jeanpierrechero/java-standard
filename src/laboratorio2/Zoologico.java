@@ -13,7 +13,6 @@ import java.util.Date;
  */
 public class Zoologico {
     
-    Cuidador c1 = new Cuidador("juan",new Date("01-01-2017"),300);
     
     public final int CANTIDAD_ANIMALES = 25;
     public final int RACIONES_POR_ANIMAL = 5;    
@@ -31,7 +30,8 @@ public class Zoologico {
         this.abierto = false;
     }
     
-    public void alimentarAnimales(int cantidadDeRaciones) {
-        
+    public void alimentarAnimales(int cantidad) {
+            Cuidador c1 = new Cuidador("juan",new Date("01-01-2017"),cantidad);
+            c1.alimentarAnimales();
     }
 }

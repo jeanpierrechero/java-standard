@@ -18,6 +18,12 @@ public class Cuidador extends Persona {
     public void setCantidadDeRaciones(int cantidadDeRaciones) {
         this.cantidadDeRaciones = cantidadDeRaciones;
     }
+
+    void alimentarAnimales() {
+           if (cantidadDeRaciones > 33){
+               
+           }
+    }
     
     
     
